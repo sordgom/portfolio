@@ -11,6 +11,9 @@ export const ProjectCard = ({ title, description, imgUrl, link }) => {
           <Nav.Link href={link} target="_blank"  >{description}</Nav.Link>
         </div>
       </div>
+      <div className="proj-imgbx-desc">
+        <p>{description} </p>
+      </div>
     </Col>
   )
 }

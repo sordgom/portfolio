@@ -9,6 +9,7 @@ import { Profile } from "./components/Profile";
 import { Team } from "./components/Team";
 import { Footer } from "./components/Footer";
 import { Projects } from "./components/Projects";
+import { Work } from "./components/Work";
 function App() {
   return (
     <div className="App">
@@ -17,6 +18,7 @@ function App() {
       {/* <Testnet /> */}
       <Profile />
       {/* <Team/> */}
+      <Work />
       <Projects />
       <Footer />
     </div>
