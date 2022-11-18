@@ -1,9 +1,7 @@
 import React from 'react';
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
-import projImg1 from "../assets/img/project-img1.png";
-import projImg2 from "../assets/img/project-img2.png";
-import projImg3 from "../assets/img/project-img3.png";
+import metabuild from "../assets/img/metabuild.png";
 import nearImg from "../assets/img/near.jpg";
 import hmcImg from "../assets/img/homecrowd.png"
 import colorSharp2 from "../assets/img/color-sharp2.png";
@@ -20,6 +18,12 @@ export const Work = () => {
       description: "Winner of NEARCON IRL HACKATHON - Future of Work track",
       imgUrl: nearImg,
       link: "https://devpost.com/software/seed-web3-career-hub"
+    },
+    {
+      title: "SeedIn",
+      description: "Participated in major hackathon MetaBuildIII",
+      imgUrl: metabuild,
+      link: "https://devpost.com/software/seed-web3-career-hub-dhrazk"
     },
     {
       title: "HomeCrowd",
