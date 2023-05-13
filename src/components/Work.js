@@ -14,22 +14,22 @@ export const Work = () => {
   //List of projects
   const work = [
     {
-      title: "SeedIn",
-      description: "Winner of NEARCON IRL HACKATHON - Future of Work track",
-      imgUrl: nearImg,
-      link: "https://devpost.com/software/seed-web3-career-hub"
-    },
-    {
-      title: "SeedIn",
-      description: "Participated in major hackathon MetaBuildIII",
+      title: "SEED WEB3",
+      description: "2nd place, Web2 to Web3 Track - NEAR MetaBUILD III Hackathon",
       imgUrl: metabuild,
       link: "https://devpost.com/software/seed-web3-career-hub-dhrazk"
     },
     {
+      title: "SeedIn",
+      description: "Winner of Future of Work Track - NEARCON IRL Hackathon",
+      imgUrl: nearImg,
+      link: "https://devpost.com/software/seed-web3-career-hub"
+    },
+    {
       title: "HomeCrowd",
-      description: "I managed to develop the smart contracts and fully integrate them to the platform.",
+      description: "Summer internship in a Defi company.",
       imgUrl: hmcImg,
-      link: ""
+      link: "https://myhomecrowd.com/"
     }
   ];
 

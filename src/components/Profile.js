@@ -30,7 +30,7 @@ export const Profile = () => {
                 <div className="">
                   <h2>Who am I?</h2>
                   <p>
-                  My name is Aymane Igmiden. I am a Moroccan student studying computer systems in my third year.
+                  My name is Aymane Igmiden. I am a Moroccan student studying computer science in my last year.
 I first became interested in blockchain and was able to learn certain essential skills, like Solidity, Javascript, Blockchain technology, React JS, and RESTful APIs.
 In addition to this arsenal, my university courses covered the majority of the fundamental competencies, including object oriented programming, data structures, system architecture, data science and web programming.
 The prospect of expanding my work experience and taking on new challenges excites me. I forward hearing from you.

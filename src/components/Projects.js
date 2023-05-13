@@ -5,6 +5,7 @@ import elder from "../assets/img/elder.png";
 import agora from "../assets/img/agora.png";
 import nft from "../assets/img/nft.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
+import daret from "../assets/img/daret-logo.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 import {NavBar} from "./NavBar";
@@ -13,6 +14,12 @@ export const Projects = () => {
 
   //List of projects
   const blockchain_projects = [
+    {
+      title: "Daret",
+      description: "Community-powered financing for everyone",
+      imgUrl: daret,
+      link: "https://daret.sordgom.xyz/"
+    },
     {
       title: "Agora DAO",
       description: "DAO for ideas",
