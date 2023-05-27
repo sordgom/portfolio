@@ -35,6 +35,16 @@ I first became interested in blockchain and was able to learn certain essential 
 In addition to this arsenal, my university courses covered the majority of the fundamental competencies, including object oriented programming, data structures, system architecture, data science and web programming.
 The prospect of expanding my work experience and taking on new challenges excites me. I forward hearing from you.
                   </p>
+                 
+                  <ul>
+                    <li><ArrowRightCircle /> <span>Email:</span> aymaneigmiden@gmail.com </li>
+                    <li><ArrowRightCircle /> <span >Devpost:</span> <a href='https://devpost.com/sordgom' target="_blank"> https://devpost.com/sordgom </a></li>
+                    <li><ArrowRightCircle /> <span >LinkedIn:</span> <a href='https://www.linkedin.com/in/aymane-igmiden/' target="_blank">https://www.linkedin.com/in/aymane-igmiden/</a> </li>
+                    <li><ArrowRightCircle /> <span >Github:</span> <a href='https://github.com/sordgom' target="_blank" >https://github.com/sordgom </a> </li>
+
+                  </ul>
+                    
+                  
                 </div>
               </TrackVisibility>
             </Col>
