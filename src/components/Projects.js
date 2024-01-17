@@ -6,6 +6,7 @@ import agora from "../assets/img/agora.png";
 import nft from "../assets/img/nft.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import daret from "../assets/img/daret-logo.png";
+import chatApp from "../assets/img/chat-app.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 import {NavBar} from "./NavBar";
@@ -15,10 +16,22 @@ export const Projects = () => {
   //List of projects
   const blockchain_projects = [
     {
+      title: "Chat app",
+      description: "Building a P2P Chat Application in Golang, Fiber, PostgreSQL, Redis and ReactJS",
+      imgUrl: chatApp,
+      link: "https://github.com/sordgom/chat"
+    },
+    {
       title: "Daret",
       description: "Community-powered financing for everyone",
       imgUrl: daret,
       link: "https://daret.sordgom.xyz/"
+    },
+    {
+      title: "Mental health of Elderly in Malaysia",
+      description: "Apply data mining techniques on 'Mental health on Elderly' in Malaysia dataset",
+      imgUrl: elder,
+      link: "https://shorturl.at/quF56"
     },
     {
       title: "Agora DAO",
@@ -32,12 +45,6 @@ export const Projects = () => {
       imgUrl: nft,
       link: "https://nfts-roan.vercel.app/",
     },
-    {
-      title: "Mental health of Elderly in Malaysia",
-      description: "Apply data mining techniques on 'Mental health on Elderly' in Malaysia dataset",
-      imgUrl: elder,
-      link: "https://shorturl.at/quF56"
-    }
   ];
 
   // const data_science_projects = [

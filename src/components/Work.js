@@ -4,6 +4,7 @@ import { ProjectCard } from "./ProjectCard";
 import metabuild from "../assets/img/metabuild.png";
 import nearImg from "../assets/img/near.jpg";
 import hmcImg from "../assets/img/homecrowd.png"
+import bigPay from "../assets/img/bigpay.jpg";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -13,6 +14,12 @@ export const Work = () => {
 
   //List of projects
   const work = [
+    {
+      title: "BigPay",
+      description: "Backend Engineering Internship",
+      imgUrl: bigPay,
+      link: "https://bigpayme.com/"
+    }, 
     {
       title: "SEED WEB3",
       description: "2nd place, Web2 to Web3 Track - NEAR MetaBUILD III Hackathon",
