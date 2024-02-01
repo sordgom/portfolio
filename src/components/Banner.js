@@ -62,7 +62,7 @@ export const Banner = () => {
                 <span className="tagline">{date}</span>
                 <h1>{`Hi! I'm Aymane Igmiden⚡`} </h1>
                 <h2>{`aka Sordgom`}</h2>
-                <h4>I'm a Backend engineer with 2 yoe</h4>
+                <h4>I'm a Backend engineer with 2 years of experience</h4>
                 <br></br>
                 <i><q>Welcome, I hope you can find something that catches your attention.</q></i>
               </div>}
