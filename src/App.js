@@ -1,8 +1,8 @@
 import React from 'react';
-import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Routes, Route } from "react-router-dom";
 import { Analytics } from '@vercel/analytics/react';
+import { pdfjs } from 'react-pdf';
 
 import { Profile } from "./components/Profile";
 import { Resume } from "./components/Resume";
@@ -10,7 +10,7 @@ import { Projects } from "./components/Projects";
 import { Work } from "./components/Work";
 import { Home } from "./components/Home";
 
-import { pdfjs } from 'react-pdf';
+import './App.css';
 
 pdfjs.GlobalWorkerOptions.workerSrc = new URL(
   'pdfjs-dist/build/pdf.worker.min.js',

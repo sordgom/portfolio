@@ -1,13 +1,11 @@
 import React from 'react';
-import { useState, useEffect } from "react";
-import { Container, Row, Col } from "react-bootstrap";
-import headerImg from "../assets/img/2.png";
-import { ArrowRightCircle, Quote } from 'react-bootstrap-icons';
+import { Container } from "react-bootstrap";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
+import { Document, Page } from 'react-pdf';
+
 import {NavBar} from "./NavBar";
 import {Footer} from "./Footer";
-import { Document, Page } from 'react-pdf';
 import resume from '../assets/pdf/resume.pdf';
 
 export const Resume = () => {  

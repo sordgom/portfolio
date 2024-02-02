@@ -1,5 +1,4 @@
-import React from 'react';
-import { useState, useEffect } from "react";
+import React,  { useState, useEffect }  from 'react';
 import { Navbar, Nav, Container } from "react-bootstrap";
 
 import navIcon2 from '../assets/img/github.svg';
