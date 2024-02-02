@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Routes, Route } from "react-router-dom";
+import { Analytics } from '@vercel/analytics/react';
 
 import { Profile } from "./components/Profile";
 import { Resume } from "./components/Resume";
@@ -19,6 +20,7 @@ pdfjs.GlobalWorkerOptions.workerSrc = new URL(
 function App() {
   return (
     <div className="App">
+      <Analytics/>
       <Routes>
         <Route exact path="/" element={<Home />} />
         <Route exact path="/projects" element={<Projects />} />
