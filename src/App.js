@@ -1,18 +1,20 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Routes, Route } from "react-router-dom";
+import { pdfjs } from 'react-pdf';
 
-import { NavBar } from "./components/NavBar";
-import { Banner } from "./components/Banner";
-import { Testnet } from "./components/Testnet";
 import { Profile } from "./components/Profile";
-import { Team } from "./components/Team";
-import { Footer } from "./components/Footer";
+import { Resume } from "./components/Resume";
 import { Projects } from "./components/Projects";
 import { Work } from "./components/Work";
 import { Home } from "./components/Home";
+
+import './App.css';
+
+pdfjs.GlobalWorkerOptions.workerSrc = new URL(
+  'pdfjs-dist/build/pdf.worker.min.js',
+  import.meta.url,
+).toString();
 
 function App() {
   return (
@@ -22,6 +24,7 @@ function App() {
         <Route exact path="/projects" element={<Projects />} />
         <Route exact path="/profile" element={<Profile />} />
         <Route exact path="/work" element={<Work />} />
+        <Route exact path="/resume" element={<Resume />} />
       </Routes>
     </div>
   );
