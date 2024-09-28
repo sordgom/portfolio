@@ -5,6 +5,7 @@ import metabuild from "../assets/img/metabuild.png";
 import nearImg from "../assets/img/near.jpg";
 import hmcImg from "../assets/img/homecrowd.png"
 import bigPay from "../assets/img/bigpay.jpg";
+import seek from "../assets/img/seek.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -13,8 +14,14 @@ export default () => {
   //List of projects
   const work = [
     {
+      title: "SEEK",
+      description: "Software Engineer",
+      imgUrl: seek,
+      link: "https://www.seek.com.au/"
+    },
+    {
       title: "BigPay",
-      description: "Backend Engineering Internship",
+      description: "Backend Engineer",
       imgUrl: bigPay,
       link: "https://bigpayme.com/"
     }, 
@@ -47,7 +54,7 @@ export default () => {
               <TrackVisibility>
                 <div className= "">
                   <h2>Work & achievements</h2>
-                  <p>This is a simple showcase of my projects and achievements</p>
+                  <p>This is a simple showcase of my work experiences and achievements</p>
                   <Tab.Container id="projects-tabs" defaultActiveKey="first">
                     <Tab.Content id="slideInUp" className="">
                       <Tab.Pane eventKey="first">
