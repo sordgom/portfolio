@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react';
 import Terminal from 'terminal-in-react';
 import { Container, Row, Col } from "react-bootstrap";
 import 'animate.css';
-import TrackVisibility from 'react-on-screen';
 
 import headerImg from "../assets/img/header-img.svg";
 

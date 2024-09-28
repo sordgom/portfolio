@@ -519,8 +519,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   letter-spacing: 0.8px;
   line-height: 1.5em;
   margin: 14px auto 30px auto;
-  text-align: center;
-  width: 80%;
+  text-align: left;
+  width: 90%;
 }
 .profile img {
   position: relative;
