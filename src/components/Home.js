@@ -1,6 +1,8 @@
 import 'animate.css';
 import { Suspense, lazy } from "react";
 import { useAtom } from 'jotai';
+import { Oval } from 'react-loader-spinner'
+
 import { activeLinkAtom } from '../atoms/activeLink.atom';
 import NavBar from './NavBar';
 import Footer from './Footer';
@@ -16,19 +18,20 @@ export const Home = () => {
     return (
         <div className="main">
             <NavBar />
-            <Suspense fallback={<div>Loading...</div>}>
+            <Suspense fallback={
+                <Oval
+                    visible={true}
+                    height="80"
+                    width="80"
+                    color="#B8B8B8"
+                    ariaLabel="oval-loading"
+                    wrapperStyle={{}}
+                    wrapperClass="spinner"
+                />
+            }>
                 {activeLink === "home" && <LazyBanner />}
-            </Suspense>
-            <Suspense fallback={<div>Loading...</div>}>
-
                 {activeLink === "projects" && <LazyProjects />}
-            </Suspense>
-            <Suspense fallback={<div>Loading...</div>}>
-
                 {activeLink === "work" && <LazyWork />}
-            </Suspense>
-            <Suspense fallback={<div>Loading...</div>}>
-
                 {/* {activeLink === "resume" && <Resume/>} */}
                 {activeLink === "profile" && <LazyProfile />}
             </Suspense>
