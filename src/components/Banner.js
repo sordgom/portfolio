@@ -6,7 +6,7 @@ import TrackVisibility from 'react-on-screen';
 
 import headerImg from "../assets/img/header-img.svg";
 
-export const Banner = () => {
+export default () => {
   const [loopNum, setLoopNum] = useState(0);
   const [isDeleting, setIsDeleting] = useState(false);
   const [text, setText] = useState('');

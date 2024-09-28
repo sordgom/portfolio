@@ -9,10 +9,8 @@ import daret from "../assets/img/daret-logo.png";
 import chatApp from "../assets/img/chat-app.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
-import {NavBar} from "./NavBar";
-import {Footer} from "./Footer";
-export const Projects = () => {
 
+export default () => {
   //List of projects
   const blockchain_projects = [
     {
@@ -58,7 +56,6 @@ export const Projects = () => {
 
   return (
     <div className="main--project">
-      <NavBar/>
       <section className="project" id="project">
         <Container>
           <Row>
@@ -120,7 +117,6 @@ export const Projects = () => {
         </Container>
         <img className="background-image-right" src={colorSharp2}></img>
       </section>
-      <Footer />
     </div>
   )
 }

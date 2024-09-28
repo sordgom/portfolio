@@ -8,10 +8,8 @@ import bigPay from "../assets/img/bigpay.jpg";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
-import {NavBar} from "./NavBar";
-import {Footer} from "./Footer";
-export const Work = () => {
 
+export default () => {
   //List of projects
   const work = [
     {
@@ -42,7 +40,6 @@ export const Work = () => {
 
   return (
     <div className='main--work'>
-      <NavBar/>
       <section className="work" id="work">
         <Container>
           <Row>
@@ -76,7 +73,6 @@ export const Work = () => {
         </Container>
         <img className="background-image-right" src={colorSharp2}></img>
       </section>
-      <Footer/>
     </div>
   )
 }

@@ -3,15 +3,11 @@ import { Container } from "react-bootstrap";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 import { Document, Page } from 'react-pdf';
-
-import {NavBar} from "./NavBar";
-import {Footer} from "./Footer";
 import resume from '../assets/pdf/resume.pdf';
 
-export const Resume = () => {  
+export default() => {  
   return (
     <div className="main--profile">
-      <NavBar/>
       <section className="profile" id="profile">
             <Container>
                 <TrackVisibility>
@@ -24,7 +20,6 @@ export const Resume = () => {
                 </TrackVisibility>
             </Container>
       </section>
-      <Footer />
     </div>
   )
 }

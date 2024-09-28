@@ -5,10 +5,8 @@ import headerImg from "../assets/img/2.png";
 import { ArrowRightCircle, Quote } from 'react-bootstrap-icons';
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
-import {NavBar} from "./NavBar";
-import {Footer} from "./Footer";
 
-export const Profile = () => {
+export default () => {
   const [loopNum, setLoopNum] = useState(0);
   const [isDeleting, setIsDeleting] = useState(false);
   const [text, setText] = useState('');
@@ -21,7 +19,6 @@ export const Profile = () => {
   
   return (
     <div className="main--profile">
-      <NavBar/>
       <section className="profile" id="profile">
         <Container>
         <Row>
@@ -66,7 +63,6 @@ export const Profile = () => {
           </Row>
         </Container>
       </section>
-      <Footer />
     </div>
   )
 }

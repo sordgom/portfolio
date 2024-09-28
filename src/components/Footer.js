@@ -5,7 +5,7 @@ import navIcon2 from "../assets/img/github.svg";
 import navIcon3 from "../assets/img/twitter.svg";
 import 'animate.css';
 
-export const Footer = () => {
+export default () => {
   return (
     <footer className="footer">
       <Container>
